@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pomodoro</title>
+    <link rel="stylesheet" href = "styles/pom.css">
+    <script src = "pom.js" defer></script>
+</head>
+<body>
+    <div class = "mainContain">
+        <h1>PomoSecond</h1>
+        <button onclick = "calculatorPage()">Calculator</button>
+        <p id = "timerDisplay">0000</p>
+        <div id = "timerOptions" class = "minuteButtons">
+            <button class = "timerBtn" value = "1500" >1500</button>
+            <button class = "timerBtn" value = "1800">1800</button>
+            <button class = "timerBtn" value = "2100">2100</button>
+            <input id = "customValue" placeholder="Custom time:" />
+            <button class = "timerBtn" id = "customTime">set</button>
+        </div>
+        <button id = "startBtn" >Start</button>
+        <button id = "resetBtn" >Reset</button>
+    </div>
+    <div>
+        <p id="totalTime">0</p>
+    </div>
+</body>
+</html>

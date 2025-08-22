@@ -1,0 +1,94 @@
+
+/* General Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-image:radial-gradient(circle, 
+            #43CAEC
+      , #B60DBC);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main Container */
+.mainContain {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+/* Heading */
+.mainContain h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #444;
+}
+
+/* Timer Display */
+#timerDisplay {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 1.5rem 0;
+    letter-spacing: 2px;
+}
+
+/* Buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.6rem 1rem;
+    margin: 0.3rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Timer Option Buttons */
+.minuteButtons {
+    margin-bottom: 1rem;
+}
+
+.timerBtn {
+    font-size: 0.9rem;
+}
+
+/* Custom Input */
+#customValue {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    text-align: center;
+}
+
+
+/* Utility Buttons */
+#startBtn,
+#resetBtn {
+    width: 45%;
+    font-size: 1rem;
+}
+
